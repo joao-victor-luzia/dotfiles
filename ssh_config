@@ -1,5 +1,5 @@
 Host vps
-    HostName 163.176.231.38
+    HostName $VPS_IP
     User ubuntu
     IdentityFile ~/.ssh/id_ed25519
     StrictHostKeyChecking no
