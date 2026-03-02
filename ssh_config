@@ -1,5 +1,0 @@
-Host vps
-    HostName $VPS_IP
-    User ubuntu
-    IdentityFile ~/.ssh/id_ed25519
-    StrictHostKeyChecking no
