@@ -17,7 +17,7 @@ fi
 
 # 2. Gera o arquivo de config dinamicamente usando o Secret do IP
 # Isso substitui a necessidade de ter um arquivo ssh_config no repositório
-if [ ! -z "$IP_ARM_ORACLE" ]; then
+if [ ! -z "$VPS_IP" ]; then
     echo "Gerando configuração SSH dinâmica..."
     cat <<EOT > ~/.ssh/config
 Host vps
