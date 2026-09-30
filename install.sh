@@ -22,7 +22,7 @@ if [ ! -z "$VPS_IP" ]; then
     cat <<EOT > ~/.ssh/config
 Host vps
     HostName $VPS_IP
-    User root
+    User ubuntu
     IdentityFile ~/.ssh/id_ed25519
     StrictHostKeyChecking no
 EOT
